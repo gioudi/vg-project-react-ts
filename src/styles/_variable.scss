@@ -1,0 +1,49 @@
+/*Lato Font*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+$font-family-lato: "Lato", sans-serif;
+/*Rufina Font*/
+
+@import url('https://fonts.googleapis.com/css2?family=Rufina:wght@400;700&display=swap');
+
+$font-family-rufina: "Rufina", sans-serif;
+
+
+/* Palette colors */
+
+$primary-darkest: #233000;
+$primary-darker: #5E6600;
+$primary-light: #9CAA00;
+$primary-lightest: #EBF0E4;
+
+// Define grayscale color palette
+$black: #000000;
+$gray-dark: #4D4D4D;
+$gray-light: #B0B0B0;
+$white: #FFFFFF;
+
+/* Fonts */
+$font-size-title: 9.25rem; /* 148px */
+$font-size-subtitle: 4.125rem; /* 66px */
+$font-size-h1: 6.75rem; /* 108px */
+$font-size-h2: 5.5rem; /* 88px */
+$font-size-h3: 4.25rem; /* 68px */
+$font-size-h4: 3rem; /* 48px */
+$font-size-h5: 2rem; /* 32px */
+$font-size-h6: 1.625rem; /* 26px */
+$font-title-normal: 1.25rem; /* 20px */
+$font-size-normal: 1.125rem; /* 18px */
+$font-size-small: 0.875rem; /* 14px */
+$font-size-extra-small: 0.75rem; /* 12px */
+
+/* Border radius */
+$border-radius-xs: 0.25rem; /* 4px */
+$border-radius-sm: 0.5rem; /* 8px */
+$border-radius-md: 0.75rem; /* 12px */
+$border-radius-lg: 1.5rem; /* 24px */
+
+/* Box shadow */
+$box-shadow-sm: 0 4px 12px rgba(18, 25, 84, 0.07);
+$box-shadow-md: 0 6px 14px rgba(18, 25, 84, 0.07);
+$box-shadow-lg: 0 10px 16px rgba(18, 25, 84, 0.07);
+$box-shadow-xl: 0 16px 24px rgba(18, 25, 84, 0.07);

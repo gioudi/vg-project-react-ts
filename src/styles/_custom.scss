@@ -1,0 +1,459 @@
+.lato-thin {
+  font-family: $font-family-lato;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.lato-light {
+  font-family: $font-family-lato;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-family: $font-family-lato;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: $font-family-lato;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lato-black {
+  font-family: $font-family-lato;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.lato-thin-italic {
+  font-family: $font-family-lato;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.lato-light-italic {
+  font-family: $font-family-lato;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.lato-regular-italic {
+  font-family: $font-family-lato;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.lato-bold-italic {
+  font-family: $font-family-lato;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.lato-black-italic {
+  font-family: $font-family-lato;
+  font-weight: 900;
+  font-style: italic;
+}
+
+
+.rufina-regular {
+  font-family: $font-family-rufina;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.rufina-bold {
+  font-family: $font-family-rufina;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+/***************
+**** Fonts ****
+***************/
+
+/* Font sizes */
+.fz-title {
+  font-size: $font-size-title;
+}
+
+.fz-subtitle {
+  font-size: $font-size-subtitle;
+}
+
+h1,
+.h1,
+.fz-h1 {
+  font-size: $font-size-h1;
+}
+
+h2,
+.h2,
+.fz-h2 {
+  font-size: $font-size-h2;
+}
+
+h3,
+.h3,
+.fz-h3 {
+  font-size: $font-size-h3;
+}
+
+h4,
+.h4,
+.fz-h4 {
+  font-size: $font-size-h4;
+}
+
+h5,
+.h5,
+.fz-h5 {
+  font-size: $font-size-h5;
+}
+
+h6,
+.h6,
+.fz-h6 {
+  font-size: $font-size-h6;
+}
+
+.normal {
+  font-size: $font-size-normal;
+}
+.normal-title {
+  font-size: $font-title-normal;
+}
+
+small,
+.small,
+.fz-small {
+  font-size: $font-size-small;
+}
+@media (min-width: 0) {
+  .fz-xs-small {
+    font-size: $font-size-small;
+  }
+
+  .fz-xs-normal {
+    font-size: $font-size-normal;
+  }
+
+  .fz-xs-title {
+    font-size: $font-size-title;
+  }
+
+  .fz-xs-subtitle {
+    font-size: $font-size-subtitle;
+  }
+
+  .fz-xs-h1 {
+    font-size: $font-size-h1;
+  }
+
+  .fz-xs-h2 {
+    font-size: $font-size-h2;
+  }
+
+  .fz-xs-h3 {
+    font-size: $font-size-h3;
+  }
+
+  .fz-xs-h4 {
+    font-size: $font-size-h4;
+  }
+
+  .fz-xs-h5 {
+    font-size: $font-size-h5;
+  }
+
+  .fz-xs-h6 {
+    font-size: $font-size-h6;
+  }
+}
+@media (min-width: 576px) {
+  .fz-sm-small {
+    font-size: $font-size-small;
+  }
+
+  .fz-sm-normal {
+    font-size: $font-size-normal;
+  }
+
+  .fz-sm-title {
+    font-size: $font-size-title;
+  }
+
+  .fz-sm-subtitle {
+    font-size: $font-size-subtitle;
+  }
+
+  .fz-sm-h1 {
+    font-size: $font-size-h1;
+  }
+
+  .fz-sm-h2 {
+    font-size: $font-size-h2;
+  }
+
+  .fz-sm-h3 {
+    font-size: $font-size-h3;
+  }
+
+  .fz-sm-h4 {
+    font-size: $font-size-h4;
+  }
+
+  .fz-sm-h5 {
+    font-size: $font-size-h5;
+  }
+
+  .fz-sm-h6 {
+    font-size: $font-size-h6;
+  }
+}
+@media (min-width: 768px) {
+  .fz-md-small {
+    font-size: $font-size-small;
+  }
+
+  .fz-md-normal {
+    font-size: $font-size-normal;
+  }
+
+  .fz-md-title {
+    font-size: $font-size-title;
+  }
+
+  .fz-md-subtitle {
+    font-size: $font-size-subtitle;
+  }
+
+  .fz-md-h1 {
+    font-size: $font-size-h1;
+  }
+
+  .fz-md-h2 {
+    font-size: $font-size-h2;
+  }
+
+  .fz-md-h3 {
+    font-size: $font-size-h3;
+  }
+
+  .fz-md-h4 {
+    font-size: $font-size-h4;
+  }
+
+  .fz-md-h5 {
+    font-size: $font-size-h5;
+  }
+
+  .fz-md-h6 {
+    font-size: $font-size-h6;
+  }
+}
+@media (min-width: 992px) {
+  .fz-lg-small {
+    font-size: $font-size-small;
+  }
+
+  .fz-lg-normal {
+    font-size: $font-size-normal;
+  }
+
+  .fz-lg-title {
+    font-size: $font-size-title;
+  }
+
+  .fz-lg-subtitle {
+    font-size: $font-size-subtitle;
+  }
+
+  .fz-lg-h1 {
+    font-size: $font-size-h1;
+  }
+
+  .fz-lg-h2 {
+    font-size: $font-size-h2;
+  }
+
+  .fz-lg-h3 {
+    font-size: $font-size-h3;
+  }
+
+  .fz-lg-h4 {
+    font-size: $font-size-h4;
+  }
+
+  .fz-lg-h5 {
+    font-size: $font-size-h5;
+  }
+
+  .fz-lg-h6 {
+    font-size: $font-size-h6;
+  }
+}
+@media (min-width: 1200px) {
+  .fz-xl-small {
+    font-size: $font-size-small;
+  }
+
+  .fz-xl-normal {
+    font-size: $font-size-normal;
+  }
+
+  .fz-xl-title {
+    font-size: $font-size-title;
+  }
+
+  .fz-xl-subtitle {
+    font-size: $font-size-subtitle;
+  }
+
+  .fz-xl-h1 {
+    font-size: $font-size-h1;
+  }
+
+  .fz-xl-h2 {
+    font-size: $font-size-h2;
+  }
+
+  .fz-xl-h3 {
+    font-size: $font-size-h3;
+  }
+
+  .fz-xl-h4 {
+    font-size: $font-size-h4;
+  }
+
+  .fz-xl-h5 {
+    font-size: $font-size-h5;
+  }
+
+  .fz-xl-h6 {
+    font-size: $font-size-h6;
+  }
+}
+
+/* Font weights */
+.fz-fw-300 {
+  font-weight: 300;
+}
+
+.fz-fw-400 {
+  font-weight: 400;
+}
+
+.fz-fw-600 {
+  font-weight: 600;
+}
+
+.fz-fw-700 {
+  font-weight: 700;
+}
+@media (min-width: 0) {
+  .fz-fw-xs-300 {
+    font-weight: 300;
+  }
+
+  .fz-fw-xs-400 {
+    font-weight: 400;
+  }
+
+  .fz-fw-xs-600 {
+    font-weight: 600;
+  }
+
+  .fz-fw-xs-700 {
+    font-weight: 700;
+  }
+}
+@media (min-width: 576px) {
+  .fz-fw-sm-300 {
+    font-weight: 300;
+  }
+
+  .fz-fw-sm-400 {
+    font-weight: 400;
+  }
+
+  .fz-fw-sm-600 {
+    font-weight: 600;
+  }
+
+  .fz-fw-sm-700 {
+    font-weight: 700;
+  }
+}
+@media (min-width: 768px) {
+  .fz-fw-md-300 {
+    font-weight: 300;
+  }
+
+  .fz-fw-md-400 {
+    font-weight: 400;
+  }
+
+  .fz-fw-md-600 {
+    font-weight: 600;
+  }
+
+  .fz-fw-md-700 {
+    font-weight: 700;
+  }
+}
+@media (min-width: 992px) {
+  .fz-fw-lg-300 {
+    font-weight: 300;
+  }
+
+  .fz-fw-lg-400 {
+    font-weight: 400;
+  }
+
+  .fz-fw-lg-600 {
+    font-weight: 600;
+  }
+
+  .fz-fw-lg-700 {
+    font-weight: 700;
+  }
+}
+@media (min-width: 1200px) {
+  .fz-fw-xl-300 {
+    font-weight: 300;
+  }
+
+  .fz-fw-xl-400 {
+    font-weight: 400;
+  }
+
+  .fz-fw-xl-600 {
+    font-weight: 600;
+  }
+
+  .fz-fw-xl-700 {
+    font-weight: 700;
+  }
+}
+
+/* Black & White */
+.ml-color-black {
+  color: $black;
+}
+
+.ml-bg-black {
+  background-color: $black;
+}
+
+.ml-color-white {
+  color: $white;
+}
+
+.ml-bg-white {
+  background-color: $white;
+}
