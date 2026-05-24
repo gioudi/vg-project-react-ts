@@ -28,7 +28,7 @@ export const CatalogPage: FC = () => {
 
   return (
     <div className="container">
-      <h2>Video Game Catalog</h2>
+      <h2 className='fz-subtitle fz-fw-xl-600'>Video Game Catalog</h2>
       
       {/* Search Input Form */}
       <form className='Form' onSubmit={handleSearchSubmit} >
@@ -54,7 +54,7 @@ export const CatalogPage: FC = () => {
           value={filters.releaseYear}
           onChange={handleInputChange}
         />
-        <button type="submit">
+        <button className='fz-btn btn fz-btn--primary' type="submit">
           Search
         </button>
       </form>

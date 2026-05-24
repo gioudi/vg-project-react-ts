@@ -442,18 +442,103 @@ small,
 }
 
 /* Black & White */
-.ml-color-black {
+.fz-color-black {
   color: $black;
 }
 
-.ml-bg-black {
+.fz-bg-black {
   background-color: $black;
 }
 
-.ml-color-white {
+.fz-color-white {
   color: $white;
 }
 
-.ml-bg-white {
+.fz-bg-white {
   background-color: $white;
+}
+
+
+// Colores de Fondo (Backgrounds)
+.bg-primary-darkest  { background-color: $primary-darkest; }
+.bg-primary-darker   { background-color: $primary-darker; }
+.bg-primary-light    { background-color: $primary-light; }
+.bg-primary-lightest { background-color: $primary-lightest; }
+.bg-gray-dark        { background-color: $gray-dark; }
+.bg-gray-light       { background-color: $gray-light; }
+
+
+.shadow-sm { box-shadow: $box-shadow-sm; }
+.shadow-md { box-shadow: $box-shadow-md; }
+.shadow-lg { box-shadow: $box-shadow-lg; }
+
+.rounded-xs { border-radius: $border-radius-xs; }
+.rounded-sm { border-radius: $border-radius-sm; }
+.rounded-md { border-radius: $border-radius-md; }
+.rounded-lg { border-radius: $border-radius-lg; }
+
+// Btn
+
+.fz-btn {
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: 2.75rem;
+    box-sizing: border-box;
+    padding: .625rem 1.5rem;
+    font-size: 1rem;
+    color: $black;
+    border: 1px solid $black;
+    background: transparent;
+    border-radius: 0;
+    font-family: $font-family-rufina;
+    transition: all 1s ease;
+
+    &:hover:not(:disabled), &:focus, &:active {
+        text-decoration: none;
+        background: transparent;
+        border-color: $gray-light;
+    }
+
+    &:disabled {
+        background-color: $gray-light;
+        color: $gray-dark;
+        border-color: $gray-dark;
+    }
+
+    &.fz-btn--loading {
+        .fz-btn__loader {
+            width: 1rem;
+            height: 1rem;
+        }
+    }
+
+    &.fz-btn--large {
+        height: 3.625rem;
+        font-size: $font-size-normal;
+    }
+    
+    &.fz-btn--small {
+        height: 2rem;
+        padding: .5rem 1rem;
+        font-size: $font-size-extra-small;
+    }
+
+    &.fz-btn--primary {
+        background-color: $primary-darker;
+        color: $white;
+
+        &:hover, &:active, &:focus, &:visited {
+            background-color: $primary-darkest;
+            color: $white;
+        }
+    }
+
+    &.fz-btn--secondary {
+        background-color: $primary-lightest;
+
+        &:hover, &:active, &:focus, &:visited {
+            background-color: $primary-light;
+        }
+    }
 }
